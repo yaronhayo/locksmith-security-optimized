@@ -138,12 +138,5 @@
   "github": {
     "silent": true,
     "autoJobCancelation": true
-  },
-  
-  "functions": {
-    "api/**/*.js": {
-      "memory": 1024,
-      "maxDuration": 10
-    }
   }
 }
