@@ -1,0 +1,52 @@
+# 247 Locksmith & Security - Robots.txt
+# Updated: 2025-07-20
+
+# Global rules
+User-agent: *
+Allow: /
+Disallow: /thank-you
+Disallow: /api/
+Disallow: /admin/
+
+# Specific rules for major search engines
+User-agent: Googlebot
+Allow: /
+Disallow: /thank-you
+Disallow: /api/
+Disallow: /admin/
+
+User-agent: Bingbot
+Allow: /
+Disallow: /thank-you
+Disallow: /api/
+Disallow: /admin/
+
+User-agent: Slurp
+Allow: /
+Disallow: /thank-you
+Disallow: /api/
+Disallow: /admin/
+
+# Important pages that should be crawled with priority
+Allow: /services/*
+Allow: /service-areas/*
+Allow: /about
+Allow: /contact
+Allow: /reviews
+Allow: /faq
+Allow: /sitemap
+Allow: /book-online
+Allow: /privacy-policy
+Allow: /terms-conditions
+
+# Set crawl rate to optimize server load
+Crawl-delay: 2
+
+# Primary domain declaration
+Host: https://247locksmithandsecurity.com
+
+# Sitemap declarations
+Sitemap: https://247locksmithandsecurity.com/sitemap.xml
+Sitemap: https://247locksmithandsecurity.com/sitemap-services.xml
+Sitemap: https://247locksmithandsecurity.com/sitemap-locations.xml
+Sitemap: https://247locksmithandsecurity.com/sitemap-index.xml
